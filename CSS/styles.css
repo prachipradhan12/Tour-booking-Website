@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Ubuntu&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+
+    </head>
+body {
+ font-family: 'Roboto Condensed', sans-serif;
+}
+* {box-sizing: border-box;}
+input[type=radio]
+{
+	padding: 15px;
+  margin: 10px 10px 10px 30px;
+  background: #f1f1f1;
+}
+input[type=text],input[type=password]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+body{        
+   
+        padding-bottom: 50px;
+        background: url("../IMAGES/signup.jpg") ;
+    }
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+border-radius: 3%;
+  width: 100%;
+  opacity: 0.9;
+}
+#label
+{
+    text-align: left;
+    color:#f1f1f1;
+}
+
+
+.cancelbtn, .signupbtn {
+  float: center;
+  width: 50%;
+}
+label
+{
+    text-align: left;
+    color:#f1f1f1;
+}
+
+/* Add padding to container elements */
+.container {
+  width: 40%;
+  padding: 40px;
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 200px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+.linkd{
+    font-size: 18px;
+    text-decoration-line: none;
+    color:azure;
+}

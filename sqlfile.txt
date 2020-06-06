@@ -1,0 +1,8 @@
+CREATE TABLE `tour`.`user_register` ( `id` INT(11) NULL , `firstname` VARCHAR(255) NOT NULL , `lastname` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NULL , `phone` BIGINT(11) NOT NULL , `gender` VARCHAR(25) NOT NULL , `Address` VARCHAR(255) NOT NULL , `password` VARCHAR(25) NOT NULL , `age` INT(10) NOT NULL , PRIMARY KEY (`id`), INDEX (`email`)) ENGINE = MyISAM;
+
+
+
+CREATE TABLE `tour`.`payment` ( `Payment_id` INT(255) NOT NULL AUTO_INCREMENT , `cardholder` VARCHAR(255) NOT NULL , `card_no` BIGINT(200) NOT NULL , `exp_month` VARCHAR(255) NOT NULL , `exp_year` INT(11) NOT NULL , `cvv` INT(5) NOT NULL , PRIMARY KEY (`Payment_id`), INDEX (`card_no`), INDEX (`cvv`)) ENGINE = MyISAM;
+
+
+CREATE TABLE `tour`.`package_reg` ( `ID` INT(11) NOT NULL AUTO_INCREMENT , `Firstname` VARCHAR(255) NOT NULL , `Lastname` VARCHAR(255) NOT NULL , `Age` INT(5) NOT NULL , `email` VARCHAR(30) NOT NULL , `Phone_no` INT(11) NOT NULL , `package_city` VARCHAR(255) NOT NULL , `recipt_type` VARCHAR(30) NOT NULL , `Address` VARCHAR(255) NOT NULL , `member1` VARCHAR(25) NOT NULL , `member2` VARCHAR(25) NOT NULL , `member3` VARCHAR(25) NOT NULL , `member4` VARCHAR(25) NOT NULL , PRIMARY KEY (`ID`)) ENGINE = MyISAM;

@@ -1,0 +1,128 @@
+
+html, body {
+      margin: 0px;
+      padding: 0;
+      width: 100%;
+}
+
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+    position: relative;
+}
+
+.imag {
+      width: 100%;
+      height: 100vh;
+      background: url("../IMAGES/homepage.jpg") no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: b;
+}
+
+
+.bcd{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10%;
+    color: black;
+    border-radius: 10%;
+}
+.caption{
+   position: absolute;
+    top: 30%;
+    left: 20%;
+    color: #000;
+    font-weight:600; 
+    font-size: 32px;
+}
+
+.dropdown {
+   display: inline-block;
+}
+
+.dropdown-content {
+  background: black;
+  min-width: 160px;
+  position: fixed;
+  display: inline-block;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: white; 
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+  text-align:left;
+}
+
+.dropdown-content a:hover {
+background: red;
+    display: inline-block; 
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: none !!important;
+/*  display: inline-block;*/
+}
+
+nav ul {
+      line-height: 60px;
+    
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+    font-weight: bolder;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 2s;
+}
+
+
+
+nav li {
+      display: inline-block;
+      padding: 16px 40px;
+}
+
+nav ul li a {
+      text-decoration: none;
+    display: inline;
+      color: #fff;
+     font-weight: bolder;
+      font-size: 16px;
+}

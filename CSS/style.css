@@ -1,0 +1,85 @@
+
+body {font-family: 'Roboto Condensed', sans-serif;}
+* {box-sizing: border-box;}
+input[type=radio]
+{
+	padding: 15px;
+  margin: 10px 10px 10px 30px;
+  background: #f1f1f1;
+}
+input[type=text], input[type=email],input[type=number],input[type=password],select{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+body{        
+   
+        padding-bottom: 50px;
+        background-image: url("../IMAGES/signup.jpg");
+    }
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid #000;
+    border-radius: 5%;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+#label
+{
+    text-align: left;
+    color:#f1f1f1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #4CAF50;
+}
+.signupbtn{
+    padding: 14px 20px;
+    background-color: #4CAF50;
+}
+.signupbtn {
+    
+/*    float: left;*/
+    width:
+}
+.cancelbtn {
+/*  float: left;*/
+  width: 100%;
+}
+
+/* Add padding to container elements */
+.container {
+    width: 50%;
+ padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  background-color: rgba(0,0,0,0.7);
+/*  height: 100%;*/
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+.bodr{
+    border-radius: 5%;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 200px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
